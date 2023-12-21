@@ -2,12 +2,12 @@ import React, {useEffect,useState} from 'react';
 import shape1 from "./assets/images/hero-shape.png"
 import img1 from "./assets/images/about-banner.jpg"
 import shape2 from "./assets/images/about-shape-1.png"
-import img2 from "./assets/images/project-1.jpg"
-import img3 from "./assets/images/project-2.jpg"
-import img4 from "./assets/images/project-3.jpg"
-import img5 from "./assets/images/project-4.jpg"
-import img6 from "./assets/images/project-5.jpg"
-import img7 from "./assets/images/project-6.jpg"
+import img2 from "./assets/c1.png"
+import img3 from "./assets/c2.png"
+import img4 from "./assets/c3.png"
+import img5 from "./assets/c4.png"
+import img6 from "./assets/c5.png"
+import img7 from "./assets/c6.png"
 
 import icon1 from "./assets/images/feature-icon-1.png"
 import icon2 from "./assets/images/feature-icon-2.png"
@@ -26,7 +26,7 @@ import bg2 from "./assets/4.png"
 
 import L from "./assets/L1.png"
 import Lb from "./assets/L2.png"
-import LW from "./assets/W2.png"
+import LW from "./assets/lip.png"
 
 
 
@@ -41,7 +41,7 @@ import PhoneIcon from '@mui/icons-material/Phone';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 import shape3 from "./assets/images/about-shape-2.png"
-import logo from "./assets/log3.png"
+import logo from "./assets/logy.png"
 import SegmentIcon from '@mui/icons-material/Segment';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import CloseIcon from '@mui/icons-material/Close';
@@ -49,6 +49,12 @@ import CloseIcon from '@mui/icons-material/Close';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 
 function App() {
+
+
+
+
+
+   
 
   const [isNavActive, setIsNavActive] = useState(false);
   const [isHeaderActive, setIsHeaderActive] = useState(false);
@@ -89,7 +95,6 @@ function App() {
     setOpen(true);
     setClickedText(num)
   }
-  console.log(clickedText);
 
 
 
@@ -221,19 +226,26 @@ function App() {
 
   <img src={LW} width="260" height="170" loading="lazy" alt="" className="abs-img abs-img-1" />
 
-  <img src={LW} width="600" height="600" loading="lazy" alt="" className="abs-img abs-img-2" />
+
 </figure>
 
   
             <div className="about-content">
   
-              <p className="section-subtitle">Pourquoi nous choisir?</p>
+             
   
-              <h2 className="h2 section-title"> Votre Expert de Confiance pour des Solutions Exceptionnelles !</h2>
+              <h2 className="h2 section-title"> Qui sommes 
+nous !</h2>
   
               <p className="section-text">
-              l'expertise passionnée à votre service ! Nos techniciens sont continuellement formés aux nouvelles technologies, garantissant ainsi des solutions adaptées et innovantes. Nous respectons scrupuleusement les délais d'intervention et nous nous engageons à fournir un service rapide, efficace et professionnel.
+              La société LIPSAN solution apporte à votre entreprise une 
+offre unique au meilleur prix s'appuyant sur des compétences élargies dans le secteur de la protection et confort validées par l'expérience. L'offre globale s'appuie sur l'analyse 
+des besoins et l'étude du site, la conception et la mise en 
+œuvre sont renforcées par une offre d'équipements professionnels d'une qualité exceptionnelle issus des meilleurs 
+constructeurs
               </p>
+
+               <p className="section-subtitle">Nos services :</p>
   
               <ul className="about-list">
   
@@ -243,8 +255,8 @@ function App() {
                   </div>
   
                   <p className="about-text">
-                      <strong>RÉACTIVITÉ</strong> <br />
-            Nous respectons scrupuleusement nos délais d’interventions.
+                      <strong>Montage et maintenance ascenseur</strong> 
+         
 
                   </p>
                 </li>
@@ -255,21 +267,9 @@ function App() {
                   </div>
   
                   <p className="about-text">
-                                     <strong>EXPERTISE</strong> <br />
+                                     <strong>Télésurveillance alarme anti intrusion et anti incendie </strong> 
 
-Nos techniciens sont formés continuellement aux nouvelles technologies.
 
-                  </p>
-                </li>
-  
-                <li className="about-item">
-                  <div className="about-icon">
-                  <ArrowForwardIosIcon/>
-                  </div>
-  
-                  <p className="about-text">
-                   <strong>FIABILITÉ</strong> <br />
-Vipsan est une société qui maîtrise ses domaines et sur laquelle vous pouvez compter
 
                   </p>
                 </li>
@@ -280,8 +280,8 @@ Vipsan est une société qui maîtrise ses domaines et sur laquelle vous pouvez 
                   </div>
   
                   <p className="about-text">
-                    <strong>Passion</strong> <br />
-Nous sommes passionnés par notre métier et nous nous engageons à fournir un service rapide, efficace et professionnel à chaque fois
+                   <strong>Parabol Collective et station numérique 
+</strong>
 
                   </p>
                 </li>
@@ -292,9 +292,74 @@ Nous sommes passionnés par notre métier et nous nous engageons à fournir un s
                   </div>
   
                   <p className="about-text">
-                   <strong>Engagement</strong> <br />
-Nous fournissons un service exceptionnel à chaque fois, en travaillant avec nos clients et en offrant des solutions sur mesure pour répondre à leurs besoins
+                    <strong>Contrôle d’accès et intercom 
+</strong>
 
+                  </p>
+                </li>
+  
+                <li className="about-item">
+                  <div className="about-icon">
+                  <ArrowForwardIosIcon/>
+                  </div>
+  
+                  <p className="about-text">
+                   <strong>Reseau informatique torsadé et fibre optique 
+</strong> 
+                  </p>
+                </li>
+                <br />
+                <p className="section-subtitle sec ">
+                LIPSAN solution vous propose son expertise et propose plusieurs modalités d'intervention :</p>
+
+                <li className="about-item">
+                  <div className="about-icon">
+                  <ArrowForwardIosIcon/>
+                  </div>
+  
+                  <p className="about-text">
+                   <strong>Analyse conception et installation 
+ 
+</strong> 
+                  </p>
+                </li>
+
+                <li className="about-item">
+                  <div className="about-icon">
+                  <ArrowForwardIosIcon/>
+                  </div>
+  
+                  <p className="about-text">
+                   <strong>Suivi et maintenance 
+
+ 
+</strong> 
+                  </p>
+                </li>
+
+                <li className="about-item">
+                  <div className="about-icon">
+                  <ArrowForwardIosIcon/>
+                  </div>
+  
+                  <p className="about-text">
+                   <strong>Conseil 
+
+ 
+</strong> 
+                  </p>
+                </li>
+
+                <li className="about-item">
+                  <div className="about-icon">
+                  <ArrowForwardIosIcon/>
+                  </div>
+  
+                  <p className="about-text">
+                   <strong>Innovation et expérience
+
+ 
+</strong> 
                   </p>
                 </li>
 
@@ -316,7 +381,7 @@ Nous fournissons un service exceptionnel à chaque fois, en travaillant avec nos
   
             <p className="section-subtitle">Tous nos services </p>
   
-            <h2 className="h2 section-title">Fiables pour nos services.</h2>
+            <h2 className="h2 section-title sectitle">Fiables pour nos services.</h2>
   
             <p className="section-text">
           
@@ -325,7 +390,7 @@ Nous fournissons un service exceptionnel à chaque fois, en travaillant avec nos
             <ul className="service-list grid-list">
   
               <li>
-                <div className="service-card">
+                <div className="service-card sc">
   
                   <div className="card-icon">
                     <img src={bg1} width="70" height="70" loading="lazy" alt="Truck"/>
@@ -336,20 +401,20 @@ Nous fournissons un service exceptionnel à chaque fois, en travaillant avec nos
                   </h3>
   
                   <p className="card-text">
-                  Votre partenaire de confiance pour tous vos besoins en équipements d'ascenseurs. De la fourniture de pièces de rechange aux systèmes d'ascenseurs complets
+                  Votre partenaire de confiance pour tous vos besoins en équipements <strong>d'ascenseurs</strong> . De la fourniture de pièces de rechange aux systèmes d'ascenseurs complets
                   </p>
   
                   <a onClick={() => handleModal(0)} href="#" className="btn-link">
                   <ArrowForwardIosIcon/>
   
-                    <span className="span">View Detail</span>
+                    <span className="span light">View Detail</span>
                   </a>
   
                 </div>
               </li>
   
               <li>
-                <div className="service-card">
+                <div className="service-card sc">
   
                   <div className="card-icon">
                     <img src={bg2} width="70" height="70" loading="lazy" alt="Ship"/>
@@ -373,14 +438,15 @@ Nous fournissons un service exceptionnel à chaque fois, en travaillant avec nos
               </li>
   
               <li>
-                <div className="service-card">
+                <div className="service-card sc">
   
                   <div className="card-icon">
                     <img src={bg3} width="70" height="70" loading="lazy" alt="Airplane"/>
                   </div>
   
                   <h3 className="h3 card-title">
-                    <span className="span">03</span> Lipsan Smart
+                    <span className="span">03</span> Intelligence 
+digitale
                   </h3>
   
                   <p className="card-text">
@@ -397,14 +463,14 @@ Nous fournissons un service exceptionnel à chaque fois, en travaillant avec nos
               </li>
   
               <li>
-                <div className="service-card">
+                <div className="service-card sc">
   
                   <div className="card-icon">
                     <img src={bg4} width="70" height="70" loading="lazy" alt="Train"/>
                   </div>
   
                   <h3 className="h3 card-title">
-                    <span className="span">04</span> Lipsan Security
+                    <span className="span">04</span> Access control
                   </h3>
   
                   <p className="card-text">
@@ -461,10 +527,10 @@ Nous fournissons un service exceptionnel à chaque fois, en travaillant avec nos
         <img src={icon1} width="72" height="91" alt="" />
       </div>
 
-      <h3 className="h3 card-title">Expertise Complète</h3>
+      <h3 className="h3 card-title">Fournisseur de Solutions Réseau</h3>
 
       <p className="card-text">
-      Plusieurs secteurs - ascenseurs, installation satellite, technologie intelligente, sécurité - regroupés en une seule entreprise, offrant des solutions diverses et de haute qualité.
+      Expert en réseaux fiables et évolutifs pour entreprises, offrant des solutions haut débit sur mesure, surveillance proactive et maintenance continue.
       </p>
 
       <a href="#" className="card-btn" aria-label="Read more">
@@ -481,10 +547,10 @@ Nous fournissons un service exceptionnel à chaque fois, en travaillant avec nos
         <img src={icon2} width="94" height="94" alt="" />
       </div>
 
-      <h3 className="h3 card-title">Engagement Passionné</h3>
+      <h3 className="h3 card-title">Expertise en Technologie de Fibre Optique</h3>
 
       <p className="card-text">
-      Animée d'une véritable passion, notre équipe propose des solutions exceptionnelles et un service client de premier ordre. Une formation continue aux technologies de pointe garantit des offres innovantes et fiables.
+      Spécialiste des connexions ultra-rapides en fibre optique pour données volumineuses, garantissant stabilité et performance maximale du réseau.
       </p>
 
       <a href="#" className="card-btn" aria-label="Read more">
@@ -501,10 +567,10 @@ Nous fournissons un service exceptionnel à chaque fois, en travaillant avec nos
         <img src={icon3} width="93" height="93" alt="" />
       </div>
 
-      <h3 className="h3 card-title">Solutions Personnalisées</h3>
+      <h3 className="h3 card-title">Fournisseur Professionnel de Solutions de Surveillance</h3>
 
       <p className="card-text">
-      La compréhension des besoins uniques de nos clients nous distingue. Des conceptions d'ascenseurs sur mesure, des solutions domotiques adaptées et des installations de sécurité personnalisées assurent une satisfaction maximale de nos clients.
+      Installe des systèmes de vidéosurveillance sur mesure, fiables et durables, avec service après-vente complet pour une sécurité renforcée.
       </p>
 
       <a href="#" className="card-btn" aria-label="Read more">
@@ -551,10 +617,10 @@ PROJETS</p>
                   </button>
   
                   <div className="card-content">
-                    <p className="card-tag">Warehousing , Distrbution</p>
+                    <p className="card-tag">ascenceur , lift</p>
   
                     <h3 className="h3">
-                      <a href="#" className="card-title">Warehouse inventory</a>
+                      <a href="#" className="card-title">NAFTAL</a>
                     </h3>
   
                     <a href="#" className="card-link">Read More</a>
@@ -576,10 +642,10 @@ PROJETS</p>
                   </button>
   
                   <div className="card-content">
-                    <p className="card-tag">Logistics, Analytics</p>
+                  <p className="card-tag">ascenceur , lift</p>
   
                     <h3 className="h3">
-                      <a href="#" className="card-title">Minimize Manufacturing</a>
+                      <a href="#" className="card-title">HOTEL RYM EL DJAMIL</a>
                     </h3>
   
                     <a href="#" className="card-link">Read More</a>
@@ -601,10 +667,10 @@ PROJETS</p>
                   </button>
   
                   <div className="card-content">
-                    <p className="card-tag">Warehousing , Distrbution</p>
+                  <p className="card-tag">ascenceur , lift</p>
   
                     <h3 className="h3">
-                      <a href="#" className="card-title">Warehouse inventory</a>
+                      <a href="#" className="card-title">SOUHA</a>
                     </h3>
   
                     <a href="#" className="card-link">Read More</a>
@@ -626,10 +692,10 @@ PROJETS</p>
                   </button>
   
                   <div className="card-content">
-                    <p className="card-tag">Logistics, Analytics</p>
+                  <p className="card-tag">ascenceur , lift</p>
   
                     <h3 className="h3">
-                      <a href="#" className="card-title">Minimize Manufacturing</a>
+                      <a href="#" className="card-title">ALG POSTE</a>
                     </h3>
   
                     <a href="#" className="card-link">Read More</a>
@@ -651,10 +717,10 @@ PROJETS</p>
                   </button>
   
                   <div className="card-content">
-                    <p className="card-tag">Warehousing , Distrbution</p>
+                  <p className="card-tag">ascenceur , lift</p>
   
                     <h3 className="h3">
-                      <a href="#" className="card-title">Warehouse inventory</a>
+                      <a href="#" className="card-title">HOTEL D ORIENT </a>
                     </h3>
   
                     <a href="#" className="card-link">Read More</a>
@@ -676,10 +742,10 @@ PROJETS</p>
                   </button>
   
                   <div className="card-content">
-                    <p className="card-tag">Logistics, Analytics</p>
+                  <p className="card-tag">ascenceur , lift</p>
   
                     <h3 className="h3">
-                      <a href="#" className="card-title">Minimize Manufacturing</a>
+                      <a href="#" className="card-title">CITA</a>
                     </h3>
   
                     <a href="#" className="card-link">Read More</a>
@@ -696,7 +762,7 @@ PROJETS</p>
   
   
   
-  
+  {/* 
   
         <section className="section blog" aria-label="blog" id="blog">
           <div className="container">
@@ -795,14 +861,16 @@ PROJETS</p>
   
           </div>
         </section>
+
+        */}
         
   
-  
+
   
   
         <iframe id='cont'
             title="Google Map Location"
-            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d10350.975598510533!2d7.746633393133448!3d36.902558292209854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sgoogle%20maps!5e0!3m2!1sen!2sdz!4v1684106576368!5m2!1sen!2sdz"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d550.1909097581283!2d7.748237814920299!3d36.893744761399034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12f007c9c29ea47b%3A0x19f603658870cffa!2sRue%20Bouzerad%20Hocine%2C%20Annaba%2C%20Algeria!5e1!3m2!1sen!2sfr!4v1700647002840!5m2!1sen!2sfr"
             width="100%"
             height="450"
             style={{ border: 0 }}
@@ -816,16 +884,39 @@ PROJETS</p>
   
       
   
-            <div >
+            <div className='yl' >
   
-              <h2 className="h2 section-title">S'abonner pour les offres et les actualités</h2>
-  
-              <form action="" className="newsletter-form">
-                <input type="email" name="email_address" placeholder="Enter Your Email" aria-label="email"
-                  className="email-field"/>
-  
-                <button type="submit" className="newsletter-btn">Subscribe Now</button>
-              </form>
+            <ul className="social-list">
+
+<li>
+  <a href="#" className="social-link">
+    <FacebookIcon/>
+  </a>
+</li>
+
+<li>
+  <a href="#" className="social-link">
+  <WhatsAppIcon/>
+
+  </a>
+</li>
+
+
+
+<li>
+  <a href="tel:2130560342531" className="social-link">
+  <PhoneIcon/>
+
+  </a>
+</li>
+<li>
+  <a href="mailto: b.ahmed@lipsan-solution.com" className="social-link">
+  <EmailIcon/>
+
+  </a>
+</li>
+
+</ul>
   
             </div>
 
@@ -853,42 +944,7 @@ PROJETS</p>
             Contactez-nous dès aujourd'hui pour découvrir nos services exceptionnels. Nous sommes là pour répondre à toutes vos questions et vous aider à concrétiser vos projets
             </p>
   
-            <ul className="social-list">
-
-              <li>
-                <a href="#" className="social-link">
-                  <FacebookIcon/>
-                </a>
-              </li>
-  
-              <li>
-                <a href="#" className="social-link">
-                <WhatsAppIcon/>
-
-                </a>
-              </li>
-  
-              <li>
-                <a href="#" className="social-link">
-                <InstagramIcon/>
-
-                </a>
-              </li>
-  
-              <li>
-                <a href="#" className="social-link">
-                <PhoneIcon/>
-
-                </a>
-              </li>
-              <li>
-                <a href="#" className="social-link">
-                <EmailIcon/>
-
-                </a>
-              </li>
-  
-            </ul>
+           
   
           </div>
   
@@ -899,24 +955,25 @@ PROJETS</p>
             </li>
   
             <li>
-              <a href="#" className="footer-link">À PROPOS</a>
+              <a href="#" className="footer-link"> <PhoneIcon/> 213 0560 34 25 31 </a>
             </li>
   
             <li>
-              <a href="#" className="footer-link">Services</a>
+              <a href="#" className="footer-link"> <PhoneIcon/> +213 0773 12 11 81</a>
             </li>
   
             <li>
-              <a href="#" className="footer-link">Blog</a>
+              <a href="#" className="footer-link"> <EmailIcon/> b.ahmed@lipsan-solution.com</a>
+            </li>
+            
+            <li>
+              <a href="#" className="footer-link">  <FacebookIcon/> SARL LIPSAN SOLUTIO</a>
             </li>
   
             <li>
-              <a href="#" className="footer-link">NOS CLIENTS</a>
+              <a href="#" className="footer-link">01 rue zemouri ahmed , Annaba Kalitoussa berrahal , Annaba Rue bouzerad Hocine , Annaba</a>
             </li>
   
-            <li>
-              <a href="#" className="footer-link">Contact Us</a>
-            </li>
   
           </ul>
   
@@ -927,7 +984,7 @@ PROJETS</p>
             </li>
   
             <li>
-              <a href="#" className="footer-link"> Lipsan Security</a>
+              <a href="#" className="footer-link"> Access control </a>
             </li>
   
             <li>
@@ -939,7 +996,7 @@ PROJETS</p>
             </li>
   
             <li>
-              <a href="#" className="footer-link">Lipsan Smart</a>
+              <a href="#" className="footer-link">Intelligence digitale</a>
             </li>
   
   
