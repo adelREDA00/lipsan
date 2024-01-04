@@ -1301,6 +1301,16 @@ transform: scale(1.3);
 }
 
 
+.imageList {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.imageList > img {
+  margin: 10px;
+}
+
 
 
 
