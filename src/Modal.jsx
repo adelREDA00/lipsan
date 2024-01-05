@@ -15,18 +15,18 @@ import bg2 from "./assets/4.png";
 import bg3 from "./assets/5.png";
 
 /// lift images
-import lift1 from './assets/lift/lift1.jpeg';
+import lift1 from "./assets/lift/lift1.jpeg";
 import lift2 from "./assets/lift/lift2.jpeg";
-import lift3 from './assets/lift/lift3.jpeg';
+import lift3 from "./assets/lift/lift3.jpeg";
 import lift4 from "./assets/lift/lift4.jpeg";
-import lift5 from './assets/lift/lift5.jpeg';
+import lift5 from "./assets/lift/lift5.jpeg";
 import lift6 from "./assets/lift/lift6.jpeg";
 import lift7 from "./assets/lift/lift7.jpeg";
 
 const imageLift = [lift1, lift2, lift3, lift4, lift5, lift6, lift7];
 
 // Network images
-import Net1 from './assets/Network/Net1.jpeg';
+import Net1 from "./assets/Network/Net1.jpeg";
 import Net2 from "./assets/Network/Net2.jpeg";
 import Net3 from "./assets/Network/Net3.jpeg";
 import Net4 from "./assets/Network/Net4.jpeg";
@@ -36,21 +36,21 @@ import Net6 from "./assets/Network/Net6.jpeg";
 const imageNet = [Net1, Net2, Net3, Net4, Net5, Net6];
 
 // Sat images
-import Sat1 from './assets/Sat/Sat1.jpeg';
+import Sat1 from "./assets/Sat/Sat1.jpeg";
 import Sat2 from "./assets/Sat/Sat2.jpeg";
 import Sat3 from "./assets/Sat/Sat3.jpeg";
 
 const imageSat = [Sat1, Sat2, Sat3];
 
 // intelggence digital
-import IT1 from './assets/IT/IT1.jpeg';
+import IT1 from "./assets/IT/IT1.jpeg";
 import IT2 from "./assets/IT/IT2.jpeg";
 import IT3 from "./assets/IT/IT3.jpeg";
 
 const imageIT = [IT1, IT2, IT3];
 
 // ACCESS CONTROLL
-import ACC1 from './assets/ACCESS/ACCESS1.jpeg';
+import ACC1 from "./assets/ACCESS/ACCESS1.jpeg";
 import ACC2 from "./assets/ACCESS/ACCESS2.jpeg";
 import ACC3 from "./assets/ACCESS/ACCESS3.jpeg";
 
@@ -299,7 +299,40 @@ export default function FullScreenDialog({ open, handleClose, clickedText }) {
           <span className="span">05</span> Network
         </h3>
         <br />
-        <p className="card-text">##############</p>
+        <p className="card-text">
+          Bienvenue chez LIPSAN SOLUTION, votre partenaire de confiance pour
+          tous vos besoins en réseau informatique et fibre optique. Notre
+          entreprise se spécialise dans la fourniture de solutions haut débit et
+          fiables pour répondre aux demandes croissantes de connectivité dans le
+          monde numérique d&#39;aujourd&#39;hui. <br /><br />Que vous soyez une petite entreprise,
+          une grande entreprise ou une institution publique, nous avons les
+          compétences et l&#39;expertise pour concevoir, installer et maintenir un
+          réseau informatique et une infrastructure en fibre optique adaptés à
+          vos besoins spécifiques. <br /><br />Notre équipe d&#39;ingénieurs qualifiés travaille
+          en étroite collaboration avec vous pour comprendre vos exigences en
+          matière de connectivité. Nous concevons ensuite des solutions sur
+          mesure qui répondent à vos besoins actuels tout en étant évolutives
+          pour répondre à vos besoins futurs. <br /><br />Grâce à notre expertise en fibre
+          optique, nous vous offrons des vitesses de connexion ultra-rapides et
+          une bande passante élevée pour répondre à vos demandes de transfert de
+          données volumineuses. Notre technologie de pointe garantit une faible
+          latence et une stabilité maximale de votre réseau, pour une expérience
+          utilisateur sans faille. <br /><br />En tant que fournisseur de services complets,
+          nous ne nous contentons pas d&#39;installer votre réseau. Nous le
+          surveillons également en permanence pour détecter les problèmes
+          potentiels et les résoudre rapidement, minimisant ainsi les temps
+          d&#39;arrêt et assurant une connectivité continue. <br /><br />Chez LIPSAN SOLUTION,
+          nous comprenons que chaque entreprise est unique, c&#39;est pourquoi nous
+          proposons des solutions flexibles et évolutives qui s&#39;adaptent à vos
+          besoins spécifiques. Nous offrons également un service client
+          exceptionnel, avec une équipe d&#39;assistance dédiée disponible 24 heures
+          sur 24, 7 jours sur 7, pour répondre à toutes vos questions et
+          résoudre tous vos problèmes. <br /><br />Faites confiance à LIPSAN SOLUTION pour
+          toutes vos solutions de réseau informatique et de fibre optique.
+          Contactez-nous dès aujourd&#39;hui pour discuter de vos besoins et
+          découvrir comment nous pouvons vous aider à rester connecté à l&#39;ère
+          numérique.
+        </p>
         <div className="imageList">
           {imageNet.map((item, index) => (
             <img key={index} src={item} height="200" width="200" />
@@ -307,19 +340,19 @@ export default function FullScreenDialog({ open, handleClose, clickedText }) {
         </div>
       </div>
     ),
-    5: (
-      <div className="service-card">
-        <div className="card-icon det">
-          <img src={bg4} width="120" height="120" loading="lazy" alt="Train" />
-        </div>
+    // 5: (
+    //   <div className="service-card">
+    //     <div className="card-icon det">
+    //       <img src={bg4} width="120" height="120" loading="lazy" alt="Train" />
+    //     </div>
 
-        <h3 className="h3 card-title det">
-          <span className="span">06</span> Protect
-        </h3>
-        <br />
-        <p className="card-text">###############</p>
-      </div>
-    ),
+    //     <h3 className="h3 card-title det">
+    //       <span className="span">06</span> Protect
+    //     </h3>
+    //     <br />
+    //     <p className="card-text">###############</p>
+    //   </div>
+    // ),
   };
 
   return (

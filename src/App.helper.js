@@ -67,18 +67,18 @@ export const featureCard = [
   {
     id: 4,
     CardTitle: "Network",
-    CardText: "###",
+    CardText: "Notre entreprise est votre partenaire de confiance pour tous vos besoins en matière de services réseau. Nous comprenons l'importance cruciale de la connectivité et de la communication dans le monde moderne des affaires. C'est pourquoi nous offrons une gamme complète de services réseau pour répondre à vos exigences spécifiques.",
     img: {
       icon: bg4,
     },
   },
-  {
-    id: 5,
-    CardTitle: "Protect",
-    CardText: "###",
-    img: {
-      icon: bg4,
-    },
-  },
+  // {
+  //   id: 5,
+  //   CardTitle: "Protect",
+  //   CardText: "###",
+  //   img: {
+  //     icon: bg4,
+  //   },
+  // },
 ];
 
