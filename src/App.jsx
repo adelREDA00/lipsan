@@ -397,7 +397,7 @@ function App() {
                     Ce qui nous rend différents
                   </p>
 
-                  <h2 className="h2 section-title"> Vipsan en trois mots</h2>
+                  <h2 className="h2 section-title"> Lipsan en trois mots</h2>
 
                   <p className="section-text"></p>
                 </div>
@@ -783,19 +783,19 @@ function App() {
               </li>
 
               <li>
-                <a href="#" className="footer-link">
+                <a href="tel:+213 560 34 25 31" className="footer-link">
                   <PhoneIcon /> +213 560 34 25 31
                 </a>
               </li>
 
               <li>
-                <a href="#" className="footer-link">
+                <a href="tel:+213 773 12 11 81" className="footer-link">
                   <PhoneIcon /> +213 773 12 11 81
                 </a>
               </li>
 
               <li>
-                <a href="#" className="footer-link">
+                <a href="mailto:b.ahmed@lipsan-solution.com" className="footer-link">
                   <EmailIcon /> b.ahmed@lipsan-solution.com
                 </a>
               </li>
