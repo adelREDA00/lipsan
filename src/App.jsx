@@ -803,7 +803,7 @@ function App() {
               <li>
                 <a href="#" className="footer-link">
                   {" "}
-                  <FacebookIcon /> SARL LIPSAN SOLUTIO
+                  <FacebookIcon /> SARL LIPSAN SOLUTION
                 </a>
               </li>
 

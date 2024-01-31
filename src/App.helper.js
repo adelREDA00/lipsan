@@ -72,13 +72,13 @@ export const featureCard = [
       icon: bg4,
     },
   },
-  // {
-  //   id: 5,
-  //   CardTitle: "Protect",
-  //   CardText: "###",
-  //   img: {
-  //     icon: bg4,
-  //   },
-  // },
+  {
+    id: 5,
+    CardTitle: "Protect",
+    CardText: "Nous sommes une entreprise spécialisée dans l'installation de caméras de surveillance pour les maisons et les entreprises. Nous avons à cœur d'o rir à nos clients des solutions per sonnalisées de surveillance vidéo qui répondent à leurs besoins spéci ques.",
+    img: {
+      icon: bg4,
+    },
+  },
 ];
 
