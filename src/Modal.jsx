@@ -304,34 +304,45 @@ export default function FullScreenDialog({ open, handleClose, clickedText }) {
           tous vos besoins en réseau informatique et fibre optique. Notre
           entreprise se spécialise dans la fourniture de solutions haut débit et
           fiables pour répondre aux demandes croissantes de connectivité dans le
-          monde numérique d&#39;aujourd&#39;hui. <br /><br />Que vous soyez une petite entreprise,
-          une grande entreprise ou une institution publique, nous avons les
-          compétences et l&#39;expertise pour concevoir, installer et maintenir un
-          réseau informatique et une infrastructure en fibre optique adaptés à
-          vos besoins spécifiques. <br /><br />Notre équipe d&#39;ingénieurs qualifiés travaille
-          en étroite collaboration avec vous pour comprendre vos exigences en
-          matière de connectivité. Nous concevons ensuite des solutions sur
-          mesure qui répondent à vos besoins actuels tout en étant évolutives
-          pour répondre à vos besoins futurs. <br /><br />Grâce à notre expertise en fibre
-          optique, nous vous offrons des vitesses de connexion ultra-rapides et
-          une bande passante élevée pour répondre à vos demandes de transfert de
-          données volumineuses. Notre technologie de pointe garantit une faible
-          latence et une stabilité maximale de votre réseau, pour une expérience
-          utilisateur sans faille. <br /><br />En tant que fournisseur de services complets,
-          nous ne nous contentons pas d&#39;installer votre réseau. Nous le
-          surveillons également en permanence pour détecter les problèmes
-          potentiels et les résoudre rapidement, minimisant ainsi les temps
-          d&#39;arrêt et assurant une connectivité continue. <br /><br />Chez LIPSAN SOLUTION,
-          nous comprenons que chaque entreprise est unique, c&#39;est pourquoi nous
-          proposons des solutions flexibles et évolutives qui s&#39;adaptent à vos
-          besoins spécifiques. Nous offrons également un service client
-          exceptionnel, avec une équipe d&#39;assistance dédiée disponible 24 heures
-          sur 24, 7 jours sur 7, pour répondre à toutes vos questions et
-          résoudre tous vos problèmes. <br /><br />Faites confiance à LIPSAN SOLUTION pour
-          toutes vos solutions de réseau informatique et de fibre optique.
-          Contactez-nous dès aujourd&#39;hui pour discuter de vos besoins et
-          découvrir comment nous pouvons vous aider à rester connecté à l&#39;ère
-          numérique.
+          monde numérique d&#39;aujourd&#39;hui. <br />
+          <br />
+          Que vous soyez une petite entreprise, une grande entreprise ou une
+          institution publique, nous avons les compétences et l&#39;expertise
+          pour concevoir, installer et maintenir un réseau informatique et une
+          infrastructure en fibre optique adaptés à vos besoins spécifiques.{" "}
+          <br />
+          <br />
+          Notre équipe d&#39;ingénieurs qualifiés travaille en étroite
+          collaboration avec vous pour comprendre vos exigences en matière de
+          connectivité. Nous concevons ensuite des solutions sur mesure qui
+          répondent à vos besoins actuels tout en étant évolutives pour répondre
+          à vos besoins futurs. <br />
+          <br />
+          Grâce à notre expertise en fibre optique, nous vous offrons des
+          vitesses de connexion ultra-rapides et une bande passante élevée pour
+          répondre à vos demandes de transfert de données volumineuses. Notre
+          technologie de pointe garantit une faible latence et une stabilité
+          maximale de votre réseau, pour une expérience utilisateur sans faille.{" "}
+          <br />
+          <br />
+          En tant que fournisseur de services complets, nous ne nous contentons
+          pas d&#39;installer votre réseau. Nous le surveillons également en
+          permanence pour détecter les problèmes potentiels et les résoudre
+          rapidement, minimisant ainsi les temps d&#39;arrêt et assurant une
+          connectivité continue. <br />
+          <br />
+          Chez LIPSAN SOLUTION, nous comprenons que chaque entreprise est
+          unique, c&#39;est pourquoi nous proposons des solutions flexibles et
+          évolutives qui s&#39;adaptent à vos besoins spécifiques. Nous offrons
+          également un service client exceptionnel, avec une équipe
+          d&#39;assistance dédiée disponible 24 heures sur 24, 7 jours sur 7,
+          pour répondre à toutes vos questions et résoudre tous vos problèmes.{" "}
+          <br />
+          <br />
+          Faites confiance à LIPSAN SOLUTION pour toutes vos solutions de réseau
+          informatique et de fibre optique. Contactez-nous dès aujourd&#39;hui
+          pour discuter de vos besoins et découvrir comment nous pouvons vous
+          aider à rester connecté à l&#39;ère numérique.
         </p>
         <div className="imageList">
           {imageNet.map((item, index) => (
@@ -340,19 +351,47 @@ export default function FullScreenDialog({ open, handleClose, clickedText }) {
         </div>
       </div>
     ),
-    // 5: (
-    //   <div className="service-card">
-    //     <div className="card-icon det">
-    //       <img src={bg4} width="120" height="120" loading="lazy" alt="Train" />
-    //     </div>
+    5: (
+      <div className="service-card">
+        <div className="card-icon det">
+          <img src={bg4} width="120" height="120" loading="lazy" alt="Train" />
+        </div>
 
-    //     <h3 className="h3 card-title det">
-    //       <span className="span">06</span> Protect
-    //     </h3>
-    //     <br />
-    //     <p className="card-text">###############</p>
-    //   </div>
-    // ),
+        <h3 className="h3 card-title det">
+          <span className="span">06</span> Protect
+        </h3>
+        <br />
+        <p className="card-text">
+          Nous sommes une entreprise spécialisée dans l&#39;installation de caméras
+          de surveillance pour les maisons et les entreprises. Nous avons à cœur
+          d&#39;o rir à nos clients des solutions per sonnalisées de surveillance
+          vidéo qui répondent à leurs besoins spéci ques. Nous sommes ers de
+          notre expertise et de notre passion pour la sécurité. Notre équipe
+          d&#39;experts en sécurité possède une vaste expé- rience dans
+          l&#39;installation de caméras de sur veillance pour diverses applications.
+          Nous tra vaillons en étroite collaboration avec nos clients pour
+          comprendre leurs besoins en ma tière de sécurité et leur proposer les
+          meilleures solutions.Nous sommes convaincus que la sécurité ne devrait
+          pas être un luxe, c&#39;est pour quoi nous proposons des solutions de
+          surveil lance vidéo abordables et de qualité supé- rieure. Nous ne
+          proposons que des produits de qualité exceptionnelle, conçus pour o
+          rir des performances exceptionnelles et une durabili té à long
+          terme.Nous sommes également ers de nos services d&#39;installation
+          professionnels. Nos techniciens expérimentés veillent à ce que chaque
+          caméra de surveillance soit installée correctement pour o rir une
+          surveillance vidéo e cace et able. Nous sommes disponibles pour o rir
+          des services de soutien après vente, y compris la maintenance et la
+          réparation. En somme, nous sommes passionnés par la sécuri té et nous
+          sommes déterminés à aider nos clients à renforcer la sécurité de leurs
+          maisons et entreprises grâce à des solutions de surveillance vidéo
+          adap tées à leurs besoins. Nous sommes convaincus que nos produits et
+          services o riront une tranquillité d&#39;esprit à nos clients, tout en
+          protégeant leurs biens et leurs proches. Contactez-nous dès au
+          jourd&#39;hui pour en savoir plus sur nos services d&#39;ins tallation de
+          caméras de surveillanceson intelli gente.
+        </p>
+      </div>
+    ),
   };
 
   return (
